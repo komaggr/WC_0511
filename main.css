@@ -15,20 +15,20 @@ section {
 .row {
     display: flex;
     flex-flow: wrap;
-    align-content: stretch;
-    align-items: stretch;
+    align-items: center;
+    max-width: 100%;
 }
 .insiderow {
     display: flex;
     flex-flow: nowrap;
-    align-content: stretch;
-    align-items: stretch;
+    align-items: center;
 }
+
 .col1-2 {
     width: calc(100%/2);
 }
 .col1-3 {
-    max-width: calc(100%/3);
+    width: calc(100%/3);
 }
 .col1-6 {
     width: calc(100%/6);
